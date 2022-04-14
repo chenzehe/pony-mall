@@ -1,0 +1,14 @@
+# Project exclude paths
+/ponymal-member/target/
+/ponymall-auth-server/target/
+/ponymall-cart/target/
+/ponymall-common/target/
+/ponymall-coupon/target/
+/ponymall-gateway/target/
+/ponymall-order/target/
+/ponymall-product/target/
+/ponymall-search/target/
+/ponymall-seckill/target/
+/ponymall-third-party/target/
+/ponymall-ware/target/
+/renren-generator-server/target/

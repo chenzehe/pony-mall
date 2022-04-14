@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ponymall-coupon
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: c3072db8-a094-4810-a67f-68119c12f2d2
+        ext-config:
+          - dataId: datasource.yml
+            group: dev
+            refresh: true
+      discovery:
+        server-addr: 127.0.0.1:8848

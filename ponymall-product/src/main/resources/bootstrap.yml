@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ponymall-product
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: ab9da1a8-e9ee-466f-a01c-af38e885bc08
+        ext-config:
+          - dataId: datasource.yml
+            group: dev
+            refresh: true
+      discovery:
+        server-addr: 127.0.0.1:8848

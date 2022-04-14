@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ponymall-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 4986d214-7a3a-45dc-ad0d-278bf63e9ea2
+        ext-config:
+          - dataId: gateway.yml
+            group: dev
+            refresh: true
+      discovery:
+        server-addr: 127.0.0.1:8848
